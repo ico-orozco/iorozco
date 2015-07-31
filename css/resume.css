@@ -1,0 +1,74 @@
+.panel-group.resume {
+  position: relative;
+  margin-top: 30px;
+}
+
+.panel-group.resume .resume-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+@media (min-width: 568px) {
+  .panel-group.resume .resume-item {
+    margin-bottom: 20px;
+  }
+}
+
+.panel-group.resume .resume-item .resume-year {
+  display: block;
+  position: relative;
+  width: 120px;
+  height: 40px;
+  margin-bottom: -20px;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 40px;
+  background-color: #c80a48;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;  
+}
+@media (min-width: 568px) {
+  .panel-group.resume .resume-item .resume-year {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+  }
+}
+
+.panel-group.resume .resume-item .panel {
+  padding: 10px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #6e6e6e;
+  border-radius: 0px;
+}
+@media (min-width: 568px) {
+  .panel-group.resume .resume-item .panel {
+    width: calc(100% - 140px);
+    margin-left: 140px;
+  }
+}
+
+.panel-group.resume .resume-item .panel .panel-heading h4.resume-title {
+  margin:0;
+  font-weight:normal;
+}
+
+.panel-group.resume .resume-item .panel .panel-heading h4.resume-title a {
+  color: #fff;
+}
+
+
+.panel-group.resume .resume-item .panel .panel-body {
+  border:0;
+  padding:5px 15px;
+}
+
+.panel-group.resume .resume-item .panel .panel-body p {
+  margin:0;
+  font-size: 14px;
+  line-height: 1.5;
+}
